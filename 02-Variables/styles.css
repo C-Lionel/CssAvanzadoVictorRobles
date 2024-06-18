@@ -1,0 +1,13 @@
+/* TODAS LAS VARIABLES CSS A LO LARDO DE MI APLICACION */
+:root {
+    --color-primary: red;
+    --fuente: Verdana;
+}
+
+h1 {
+    color: var(--color-primary);
+}
+
+p {
+    font-family: var(--fuente);
+}
