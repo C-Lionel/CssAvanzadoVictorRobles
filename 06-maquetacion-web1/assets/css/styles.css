@@ -79,6 +79,7 @@ body {
 }
 
 .aside__user-info {
+    padding: 0 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
