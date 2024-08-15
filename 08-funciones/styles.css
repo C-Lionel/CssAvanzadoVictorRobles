@@ -9,3 +9,7 @@
     text-align: center;
     line-height: 300px;
 }
+
+img {
+    clip-path: circle(50%);
+}
