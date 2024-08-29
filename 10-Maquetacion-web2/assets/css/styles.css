@@ -31,7 +31,7 @@ body {
 
 .layout__menu {
     width: 100%;
-    padding: 5rem 9.5rem;
+    padding: 3.5rem 3rem;
 }
 
 .menu__navbar {
@@ -54,6 +54,21 @@ body {
 .nav__item {
     position: relative;
     margin: 0 2.4rem;   
+}
+
+.nav__title {
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    color: var(--color-text-body);
+    transition: all 300ms ease-in-out;
+}
+
+.nav__icon {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 0.2rem;
+    vertical-align: middle;
 }
 
 .nav__submenu{
