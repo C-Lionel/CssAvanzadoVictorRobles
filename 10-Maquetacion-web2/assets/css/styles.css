@@ -381,7 +381,7 @@ body {
 
 .layout__services {
     position: relative;
-    margin: 5rem 4rem;
+    margin: 14rem 10rem;
     z-index: 1;
 }
 
@@ -417,8 +417,8 @@ body {
 
 .services__service {
     width: 33%;
+    height: 100%;
     padding: 5rem 4rem;
-    padding-bottom: 3rem;
     margin-bottom: 4rem;
     border-radius: 3rem;
     background: linear-gradient(180deg, var(--color-bg-services), rgba(255, 255, 255, 0));
@@ -445,6 +445,7 @@ body {
 }
 
 .service__title {
+    color: var(--color-title);
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 1.4;
@@ -483,8 +484,41 @@ body {
     color: var(--color-primary);
 }
 
-.service__more:hover::before +{
+.service__more:hover::before {
     background-color: var(--color-primary);
+}
+
+.services__service--bottom {
+    margin-top: 20rem;    
+}
+
+.services__service--middle {
+    margin-top: 10rem;
+}
+
+.services__service--top {
+    margin-top: 0rem;
+}
+
+.service-shapes__item {
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.service-shapes--shape1 {
+    top: -7%;
+    right: 7%;
+}
+
+.service-shapes--shape2 {
+    top: 10%;
+    left: 52%;
+}
+
+.service-shapes--shape3 {
+    top: 34%;
+    left: 5%;
 }
 
 
